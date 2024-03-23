@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hwb(0 0% 100%);
+}
+.header {
+    background: hwb(0 11% 10%);
+    background-size: cover;
+    color: white;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.service-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+}
+.service-header {
+    margin-bottom: 30px;
+}
+
+.service-box strong {
+  display: block; /* ブロック要素として扱う */
+  text-align: center; /* テキストを中央揃えにする */
+  margin: 0 auto; /* 上下のマージンを0にし、左右のマージンを自動調整して中央に配置 */
+}
+
+.service-box {
+  text-align: center; /* テキストを中央揃えにする */
+}
+
+.service-box button {
+  display: inline-block; /* ボタンをインラインブロック要素として扱う */
+  margin-top: 20px; /* ボタンの上に余白を設定 */
+  /* その他のボタンスタイル */
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+}
+.service-box img {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #c00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.bottom-nav {
+    margin: 30px 0;
+}
+.bottom-nav a {
+    display: block;
+    color: white;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+/* .main-content {
+  margin: 20px 50px;
+} */
+
+.main-content {
+  display: flex; /* フレックスコンテナを作成 */
+  align-items: flex-start; /* 子要素を上端に揃える */
+  justify-content: space-between; /* 子要素を両端に配置 */
+}
+
+
+
+
+
+
+.service-header {
+  font-size: 4em; /* フォントサイズを大きくする */
+  font-weight: bold; /* フォントを太字にする */
+  color: #0056b3; /* 色を変更する */
+  text-align: center; /* タイトルを中央揃えにする */
+  margin-bottom: 30px; /* 下のマージンを追加して、次の要素との間隔を開ける */
+  padding: 20px; /* パディングを追加して、タイトル周りのスペースを広げる */
+  background-color: #f0f0f0; /* 背景色を追加して、さらに目立たせる */
+  border-radius: 10px; /* 角を丸くする */
+}
+
+.service-h2 {
+  font-size: 2em; /* フォントサイズを大きくする */
+  font-weight: bold; /* フォントを太字にする */
+  color: #000000; /* 色を変更する */
+  text-align: center; /* タイトルを中央揃えにする */
+  margin-bottom: 30px; /* 下のマージンを追加して、次の要素との間隔を開ける */
+  padding: 20px 10px; /* 上下のパディングを20px、左右のパディングを10pxに設定して、タイトル周りのスペースを広げる */
+  background-color: #f0f0f0; /* 背景色を追加して、さらに目立たせる */
+  border-radius: 10px; /* 角を丸くする */
+  display: inline-block; /* 要素をインラインブロック要素として扱う */
+  max-width: calc(100% - 20px); /* 親要素の幅から20px引いた最大幅を設定 */
+  box-sizing: border-box; /* パディングとボーダーを要素の幅に含める */
+}
+
+.skills {
+  display: flex; /* フレックスコンテナを作成 */
+  flex-direction: column; /* 子要素を縦方向に並べる */
+  align-items: flex-start; /* 子要素をコンテナの開始端に揃える */
+}
+
+.skill-category {
+  margin-bottom: 20px; /* 各スキルカテゴリ間の余白を設定 */
+}
+
+/* レスポンシブデザインのためのメディアクエリ */
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column; /* 画面幅が768px以下の場合は縦並びに変更 */
+  }
+}
+
+.skill-category h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+.skill-category li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer li {
+  margin-bottom: 5px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0px 0; /* 上下のパディングを20pxに設定 */
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end; /* ナビゲーションを右詰めにする */
+  padding: 20px;
+  background-color: #000;
+  color: white;
+}
+
+.navbar ul li {
+  display: inline-block; /* リストアイテムを横並びにする */
+  margin-left: 20px; /* 左の間隔を20pxに設定 */
+}
+
+.navbar ul li:first-child {
+  margin-left: 0; /* 最初のリストアイテムの左間隔を0にする */
+}
+
+.center-image {
+  width: 50%; /* 画像の幅を50%に設定 */
+  height: auto; /* 画像の高さを自動調整 */
+  margin-right: 20px; /* 画像とスキルリストの間に余白を設定 */
+}
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around; /* コンテンツを均等に配置 */
+  align-items: center; /* アイテムを垂直方向の中央に配置 */
+  padding: 20px;
+  background-color: #c00; /* 既存のスタイルを保持 */
+  color: white; /* 既存のスタイルを保持 */
+}
+
+footer div {
+  text-align: center; /* テキストを中央揃えに */
+}
+
+footer ul {
+  display: flex; /* リストをフレックスボックスにする */
+  justify-content: center; /* 中央揃えにする */
+  list-style: none; /* リストのスタイルをなくす */
+  padding: 0; /* パディングをリセット */
+}
+
+footer a {
+  color: white; /* 既存のスタイルを保持 */
+  text-decoration: none; /* テキストの下線をなくす */
+  margin: 0 10px; /* マージンを適用 */
+}
+footer li {
+  margin: 0 10px; /* リストアイテムの間隔を設定 */
+}
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  footer {
+      flex-direction: column; /* 画面幅が768px以下の場合は縦並びに変更 */
+  }
+}
+
+
+.copy-right {
+  clear: both; /* フロートされた要素の影響を受けずに表示 */
+  margin-top: 20px; /* 上の余白を追加 */
+  padding: 10px 0; /* 上下のパディングを追加 */
+  text-align: center; /* テキストを中央揃えに */
+}
+
+
+
+
+.to-top {
+  text-decoration: underline; /* アンダーラインを追加 */
+  /* その他のスタイル設定 */
+}
+
+
+
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
